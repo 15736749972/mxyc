@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <script src="../public/jquery-3.1.1.js"></script>
+    <script src="../public/javascripts/check.js"></script>
+    <script src="../public/javascripts/request.js"></script>
+
+</head>
+<body>
+    <h3>用户注册</h3>
+    用户名：<input type='text' name='username' id="username" placeholder="请填写手机号或邮箱账号"/><span id="usernotice"></span><br><br>
+    昵称：<input type="text" name="nikename" id="nikename" placeholder="请填写你的昵称"/><br><br>
+    性别：<input type="text" name="sex" id="sex" placeholder="请填写你的性别"/><br><br>
+    密码：<input type='password' name='password' id="password" placeholder="请填写6-16位密码"/><span id="userpass"></span><br><br>
+    确认密码：<input type='password' name='password1' id="password1" placeholder="请重复填写你的密码"/><span id="userpass1"></span><br><br>
+    <input type='button' value='注册' id="register"/>
+    <a href="login.html">点击这里登陆</a>
+</body>
+<script>
+
+var flag2=false;
+//用户注册时失焦判断事件
+    $('#username').blur(function () {
+        var result=check($('#username'));
+        $('#usernotice').html(result);
+       // alert(flag)
+        //格式正确后判断用户名是否已被注册使用过
+        if(flag){
+            var callback=function (data) {
+                //alert(data.success)
+                if(data){
+                    var msg=data.msg;
+                    $('#usernotice').html(msg);
+                }
+            };
+            var error=function (error) {
+                if(error){
+                    alert(error.msg);
+                }
+            };
+            var name=$('#username').val();
+            var data={uname:name,type:2};
+            var res=post('http://localhost/projectstudy/views/index.php',data,callback,error)
+        }else {
+            $('#usernotice').html('用户名格式错误');
+        }
+    });
+//注册时用户密码失焦事件
+    $('#password').blur(function () {
+        var result=pass($('#password'));
+        $('#userpass').html(result);
+    });
+//注册时确认密码事件。两次输入密码相同时通过
+    $('#password1').blur(function () {
+        if($('#password1').val().length!=0) {
+            if ($('#password').val() == $('#password1').val()) {
+                flag2=true;
+               $('#userpass1').html('Y') ;
+            } else {
+                $('#userpass1').html( '重复密码错误');
+            }
+        }else {
+            return;
+        }
+    });
+//alert(flag+':'+flag1+':'+flag2)
+//点击注册事件
+    $('#register').click(function () {
+        //alert(flag+':'+flag1+':'+flag2)
+        var name=$('#username').val();
+        var nikename=$('#nikename').val();
+        var sex=$('#sex').val();
+        var password=$('#password').val();
+        //用户名，密码。确认密码都正确时进行异步执行将用户信息保存入服务器端数据库
+        if(flag&&flag1&&flag2){
+            var callback=function (data) {
+
+                if(data){
+                    //var msg=data.msg;
+                    //注册成功，强制跳转到登陆页面让用户进行登录
+                   // var url=data.url;
+                   // alert(msg);
+                    location.href='login.html';
+                }
+            };
+            var error=function (error) {
+                if(error){
+                    alert(error.msg);
+                }
+            };
+            var data={uname:name,upassword:password,unikename:nikename,usex:sex,type:0};
+            var res=post('http://localhost/projectstudy/views/index.php',data,callback,error);
+        }else {
+            alert('以上填写格式不正确');
+        }
+
+    });
+</script>
+</html>

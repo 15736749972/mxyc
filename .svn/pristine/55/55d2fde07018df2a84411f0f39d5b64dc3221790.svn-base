@@ -1,0 +1,139 @@
+.padtop40{
+    padding-top: 40px;
+}
+.v_des{
+    margin-right: 20px;
+}
+.v_des header{
+    font: 30px/24px '微软雅黑';
+    color: #333;
+}
+
+.v_des header{
+    font: 30px/24px '微软雅黑';
+    color: #333333;
+}
+.v_des a.back_btn:link,.v_des a.back_btn:visited,.v_des a.back_btn:hover,.v_des a.back_btn:active{
+    background: #eef4f8;
+    padding-top: 5px;
+    width: 94px;
+    height: 29px;
+    border: 1px solid #d4e3ee;
+    margin-right: 20px;
+    text-align: center;
+    color: #86abc7;
+    text-decoration: none;
+}
+.v_des span{
+    float: left;
+    padding-right: 32px;
+    color: #cccccc;
+}
+.v_des span b{
+    font-weight: normal;
+    color: #999;
+}
+.v_des .video_show{
+    background: #222;
+    padding: 20px;
+}
+
+
+
+.vd_des .vd_head{
+    color: #666;
+    font-weight: bold;
+    float: left;
+}
+.vd_des span.vdh_right{
+    float: right;
+}
+.vd_des span.vdh_right i{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: url("../images/tip.png") no-repeat -5px -69px;;
+}
+.vd_des span.vdh_right span,.vd_des li span.vdt_right span{
+    color: #9aabb8;
+    padding-right: 0;
+}
+.vd_des span.vdh_right b,.vd_des li span.vdt_right b{
+    color: #215484;
+}
+
+ .vd_des li span.vd_text{
+     color: #999;
+     float: left;
+ }
+.vd_des li span.vdt_right{
+    float: right;
+
+}
+.vd_des li span.vdt_right i{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url("../images/tip1.png") no-repeat -28px -4px;
+    margin-top: 4px;
+}
+.v_des h3{
+    padding-top: 45px;
+    font: 20px/24px '微软雅黑';
+    font-weight: bold;
+}
+.w895 .recommend li{
+    float: left;
+    margin-top: 18px;
+    padding-right: 18px;
+}
+.w895 .recommend li dl dd a:link,.w895 .recommend li dl dd a:visited,.w895 .recommend li dl dd a:hover,.w895 .recommend li dl dd a:active{
+    color: #215484;
+}
+.eye{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -69px;
+}
+.heart{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -94px;
+}
+span.pub_text{
+    font: 12px/24px '微软雅黑';
+    padding-right: 7px;
+    padding-left: 2px;
+    color: #9aabb8;
+}
+
+
+.connect{
+    margin-right: 20px;
+}
+.connect #text{
+    width: 100%;
+    height: 130px;
+    background: #f8f8f8;
+    border: 1px solid #eee;
+}
+.connect span.count{
+    float: left;
+    color: #999;
+    padding-top: 20px;
+}
+.connect .ct_btn{
+    margin-top: 20px;
+    float: right;
+    background: #3498db;
+    width: 96px;
+    height: 36px;
+    color: #f5f5f5;
+    font: 16px/36px '微软雅黑';
+    text-align: center;
+}
+
+

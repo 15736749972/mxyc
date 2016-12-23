@@ -1,0 +1,53 @@
+.padtop50{
+    padding-top: 50px;
+}
+ .cln_connect {
+     margin-right: 20px;
+     padding: 15px 0;
+     border-bottom: 1px dashed #cfd6dc;
+ }
+.cln_connect li a.cln_title:link,.cln_connect li a.cln_title:visited,.cln_connect li a.cln_title:hover,.cln_connect li a.cln_title:active{
+    font: 16px/24px '微软雅黑';
+    color: #333;
+}
+.cln_connect li .note_left span{
+    font: 12px/24px '微软雅黑';
+    color: #999;
+}
+.cln_connect li .note_left span a:link,.cln_connect li .note_left span a:visited,.cln_connect li .note_left span a:hover,.cln_connect li .note_left span a:active{
+    color: #6e8bbb;
+}
+.cln_connect li .note_right i{
+    width: 14px;
+    height: 14px;
+}
+.eye{
+    background-position: -5px -69px;
+}
+.heart{
+    background-position: -5px -94px;
+}
+.pub_text{
+    font: 12px/24px '微软雅黑';
+    padding-right: 7px;
+    padding-left: 2px;
+}
+.padtop40{
+    padding-top: 40px;
+}
+.cln_list li{
+    float: left;
+    width: 34px;
+    height: 34px;
+    color: #666;
+    line-height: 34px;
+    border: 1px solid #e1e2e3;
+    text-align: center;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.cln_list li.current{
+border-color: #fff;
+    color: #215484;
+    font-weight: bold;
+}

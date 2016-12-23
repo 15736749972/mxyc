@@ -1,0 +1,45 @@
+.eye{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -69px;
+}
+.heart{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -94px;
+}
+.pub_text{
+    font: 12px/24px '微软雅黑';
+    padding-right: 7px;
+    padding-left: 2px;
+    color: #9aabb8;
+}
+.w895 .video_list li{
+    float: left;
+    margin-top: 18px;
+    padding-right: 18px;
+}
+.video_list li dl dd a:link,.video_list li dl dd a:visited,.video_list li dl dd a:hover,.video_list li dl dd a:active{
+    font-weight: bold;
+    color: #215484;
+}
+.padtop40{
+    padding-top: 40px;
+}
+.cln_list li{
+    float: left;
+    width: 34px;
+    height: 34px;
+    color: #666;
+    line-height: 34px;
+    border: 1px solid #e1e2e3;
+    text-align: center;
+    margin-right: 9px;
+    cursor: pointer;
+    padding-right: 0;
+}
+.cln_list li.current{
+    border-color: #fff;
+    color: #215484;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页</title>
+    <script src="../public/jquery-3.1.1.js"></script>
+    <script src="../public/javascripts/check.js"></script>
+    <script src="../public/javascripts/request.js"></script>
+</head>
+<body>
+    <h3>用户名登陆</h3>
+    用户名：<input type='text' name='username'id="username" /><span id="userLogin"></span><br><br>
+    密码：<input type='password' name='password' id="password" /><span id="passLogin"></span><br><br>
+    <input type='button' value='登陆' id="login"/>
+    <a href="register.html">未注册，请注册</a>
+    <br>
+    <br>
+    <button id="bbs">获取评论数据</button>
+
+</body>
+<script>
+    //登录用户名失焦时判断
+    $('#username').blur(function () {
+        var result=check($(this));
+        $('#userLogin').html(result);
+    });
+    //登录时密码失焦时判断
+    $('#password').blur(function () {
+        //console.log('1122334');
+        var result=pass($(this));
+        $('#passLogin').html(result);
+    });
+    //点击登陆事件
+    $('#login').click(function () {
+        var name=$('#username').val();
+        var password=$('#password').val();
+       // if(flag&&flag1){
+            //异步执行的回调函数
+            var callback=function (data) {
+                if(data){
+                    var msg=data.msg;
+                    if (data.success){
+                        var token=data.token;
+                        sessionStorage.setItem('token123',token);
+                        var uname=token.substring(0,token.indexOf('='));
+                        //alert(name);
+//                        sessionStorage.setItem('userinfo',{name:'282340186@qq.com',header:'/data/images/10005.jpg'})
+//                      这种写法禁止，因为如果想把数据存储为json字符串，对象必须进行格式化
+                        var data_objc=new Object();
+                        data_objc.name=uname;
+                        data_objc.header='/data/images/10003.jpg';
+                        sessionStorage.setItem('userinfo',JSON.stringify(data_objc));
+                        //cookie方法只能同级或向下及传
+//                        var tData=new Date();
+//                        tData.setDate(tData.getDate()+30);
+//                        document.cookie='uId='+token+';expires='+tData;
+//                        document.cookie='usericon=/data/images/10001.jpg';
+                        //登陆成功跳转到用户中心
+                       location.href='../video.html';
+                    }else {
+                       alert(msg);
+                    }
+
+                }
+            };
+            //登录失败
+            var error=function (error) {
+                if(error){
+                    alert(error.msg);
+                }
+            };
+
+            var data={uname:name,upassword:password,type:1};
+            //异步执行post方法
+            post('http://localhost/projectstudy/views/index.php',data,callback,error);
+       // }
+    });
+
+</script>
+</html>

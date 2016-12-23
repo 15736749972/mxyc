@@ -1,0 +1,72 @@
+.padtop50{
+    padding-top: 50px;
+}
+.contents li{
+    margin-right: 20px;
+    padding: 10px 0;
+    border-bottom: 1px dashed #cfd6dc;
+}
+.contents  li dl dt i{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url("../images/tip.png") no-repeat 0 -112px;
+    margin-top: 5px;
+}
+.contents  li dl dt a:link,.contents li dl dt a:visited,.contents  li dl dt a:hover,.contents  li dl dt a:active{
+    float: left;
+    font: 16px/30px '微软雅黑';
+    color: #215484;
+    padding-left: 15px;
+}
+.contents  li dl dt span{
+    float: right;
+    color: #999;
+}
+.contents  li dl dd{
+    padding-left: 30px;
+}
+.contents  li dl dd span{
+    font: 12px/24px '微软雅黑';
+    color: #999;
+}
+.contents  li dl dd span a:link,.contents  li dl dd span a:visited,.contents  li dl dd span a:hover,.contents  li dl dd span a:active{
+    color: #6e8bbb;
+}
+.text{
+    padding-right: 15px;
+}
+.eye{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -69px;
+}
+.heart{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -94px;
+}
+.pub_text{
+    padding-right: 7px;
+    padding-left: 2px;
+}
+.padtop40{
+    padding-top: 40px;
+}
+.cln_list li{
+    float: left;
+    width: 34px;
+    height: 34px;
+    color: #666;
+    line-height: 34px;
+    border: 1px solid #e1e2e3;
+    text-align: center;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.cln_list li.current{
+    border-color: #fff;
+    color: #215484;
+    font-weight: bold;
+}

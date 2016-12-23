@@ -1,0 +1,239 @@
+.navBack{
+    background: #d4e3ee;
+    margin-top: 72px;
+}
+.navTwo ul li{
+    float: left;
+}
+.navTwo ul li a:link,.navTwo ul li a:visited,.navTwo ul li a:hover,.navTwo ul li a:active{
+    display: block;
+    padding: 26px 10px 24px 10px;
+    border-bottom: 2px solid #d4e3ee;
+    color: #3c7eab;
+    text-decoration: none;
+}
+.navTwo ul li a:hover{
+    background: #CBDEEE;
+}
+.navTwo ul li.nt_hover a{
+    font: 16px/24px '微软雅黑';
+    color: #215484;
+    font-weight: bold;
+    border-bottom-color: #215484;
+}
+.nt_right{
+    padding-top: 20px;
+}
+.nt_right a:link,.nt_right a:visited,.nt_right a:hover,.nt_right a:active{
+    float: right;
+    display: block;
+    padding: 6px 27px;
+    text-decoration: none;
+    background: #fff;
+    margin-left: 9px;
+    color: #3c7eab;
+}
+.nt_right a.note:link,.nt_right a.note:visited,.nt_right a.note:hover,.nt_right a.note:active{
+    background: #ffb96d;
+    color: #c65528;
+}
+/*公告栏*/
+
+.notice{
+    overflow: hidden;
+    height: 112px;
+}
+.notice ul li{
+    font: 14px/28px '微软雅黑';
+}
+.notice ul li a:link,.notice ul li a:visited,.notice ul li a:hover,.notice ul li a:active{
+    color: #555;
+}
+/*视频点击栏*/
+.click table tr td{
+    height: 25px;
+}
+.click table tr td.pub_td i{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #f9deb7;
+    text-align: center;
+    border-radius: 2px;
+    vertical-align: middle;
+    font-variant: normal;
+    font: 12px/18px '微软雅黑';
+    color: #fff;
+}
+.click table tr td.one i{
+    background: #f88a8c;
+}
+.click table tr td.two i{
+    background: #f9b48b;
+}
+.click table tr td a:link,.click table tr td a:visited,.click table tr td a:hover,.click table tr td a:active{
+    color: #666;
+    font: 14px/28px '微软雅黑';
+}
+/*热门问题区样式*/
+.hot ul li{
+    padding: 10px 0;
+}
+.hot ul li a:link,.hot ul li a:visited,.hot ul li a:hover,.hot ul li a:active{
+    display: block;
+    font: 14px/20px '微软雅黑';
+}
+.hot ul li a.pub_hot{
+    color: #215484;
+}
+.hot ul li a.pub_hot1{
+    color: #999;
+}
+/*右侧最新笔记栏*/
+.new_note table tr td.pub_td{
+    width: 12px;
+    height: 20px;
+    padding-left: 8px;
+}
+.new_note table tr td.pub_td i{
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background: #ccc;
+}
+.new_note table tr td a{
+    font: 14px/28px '微软雅黑';
+    color: #666;
+    padding-left: 8px;
+}
+
+/*热门创作人样式*/
+.auther{
+    height: 440px;
+    overflow: hidden;
+}
+.auther dl{
+    padding: 16px 0;
+    border-bottom: 1px dashed #cfd6dc;
+}
+.auther dl dd span{
+    display: block;
+}
+.auther dl dd span b{
+    font-weight: normal;
+}
+.auther dl dd span a:link,.auther dl dd span a:visited,.auther dl dd span a:hover,.auther dl dd span a:active{
+    font: 12px/24px '微软雅黑';
+    color: #215484;
+}
+.auther dl dd span b.b_name a{
+    font-size: 14px;
+    color: #333;
+}
+.auther dl dd span b.b_job{
+    color: #a8b6c1;
+    font: 12px/18px '微软雅黑';
+}
+.auther dl dd span b.b_count,.auther dl dd span b.b_success{
+    font: 12px/18px '微软雅黑';
+    color: #999;
+}
+/*人气用户*/
+.user table tr td.userPic{
+    height: 42px;
+    vertical-align: middle;
+    width: 50px;
+}
+.user table tr td.name a:link,.user table tr td.name a:visited,.user table tr td.name a:hover,.user table tr td.name a:active{
+    color: #215484;
+    font: 14px/42px '微软雅黑';
+    vertical-align: middle;
+}
+.user table tr td.count{
+    text-align: right;
+    color: #9aabb8;
+    font: 14px/42px '微软雅黑';
+}
+
+/*全部评论区*/
+.connect_content{
+    margin-right: 20px;
+}
+.connect_content .ccUl li{
+    float: left;
+    border-bottom: 3px solid #fff;
+    padding: 10px 8px;
+    margin-right: 14px;
+    font: 20px/24px '微软雅黑';
+}
+.connect_content .ccUl li.hover{
+    border-bottom: 3px solid #215484;
+    font-weight: bold;
+}
+.connect_content .con{
+    display: none;
+}
+.connect_content .cct_main{
+    border-top: 1px solid #9aabb8;
+}
+.cmUl li{
+    border-bottom: 1px dashed #cfd6dc;
+    padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.cmUl li dl dt{
+    float: left;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 24px;
+}
+.cmUl li dl dt img{
+  width: 100%;
+ height: 100%;
+}
+.cmUl li dl dd{
+    float: left;
+    padding-left: 15px;
+    width: 810px;
+}
+.cmUl li dl dd span{
+    padding-right: 0;
+    color: #555;
+    display: block;
+}
+.cmUl li dl dd span b{
+    font: 12px/24px '微软雅黑';
+    float: left;
+}
+.cmUl li dl dd span b.cm_b a:link,.cmUl li dl dd span b.cm_b a:visited,.cmUl li dl dd span b.cm_b a:hover, .cmUl li dl dd span b.cm_b a:active {
+    color: #3498db;
+    padding-right: 15px;
+}
+.cmUl li dl dd span b.cmb_time{
+    color: #999;
+}
+.cmUl li dl dd span.spub_b b{
+    padding-right: 15px;
+}
+.cmUl li dl dd span i{
+    margin-top: 5px;
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url("../images/tip1.png") no-repeat;
+}
+.cmUl li dl dd span i.up{
+    background-position: -5px -3px;
+}
+.cmUl li dl dd span i.down{
+    background-position: -5px -30px;
+}
+.cmUl li dl dd span i.msg{
+    background-position: -5px -57px;
+}
+.cmUl li dl dd span i.enjoy{
+    background-position: -8px -81px;
+}

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频列表页</title>
+    <link rel="stylesheet" href="public/stylesheets/base.css">
+    <link rel="stylesheet" href="public/stylesheets/base2.css">
+    <link rel="stylesheet" href="public/stylesheets/video_list.css">
+    <script src="public/jquery-3.1.1.js"></script>
+    <script src="public/javascripts/public.js"></script>
+    <script>
+        $(function () {
+            $('.bigPic ul li').first().css({
+                'width':'428px',
+                'height':'338px',
+                'position':'relative'
+            });
+            $('.bigPic ul li').first().children('dl').append('<dd class="position_box"></dd>');
+            $('.bigPic ul li').first().children('dl').find('dd').eq(0).children('a').css({
+                'position':'absolute',
+                'color':'#fff',
+                'font-weight':'bold',
+                'top':'305px',
+                'left':'10px',
+                'z-index':"3"
+            }).end().end().eq(1).css({
+                'position':'absolute',
+                'top':'305px',
+                'left':'315px',
+                'color':'#fff',
+                'z-index':'3'
+            });
+            /*翻页动态加样式*/
+            $('.cln_list li').first().css('width','82px');
+            $('.cln_list li').last().css('width','82px');
+            $('.cln_list li').hover(function () {
+                $(this).addClass('current');
+            },function () {
+                $(this).removeClass('current');
+            });
+            /*公告栏信息滚动*/
+            var i=0;
+            var num= $('.notice').find('li').length;
+            $('.notice').find('ul').clone().appendTo('.notice');
+            function slide() {
+                $('.notice').find('ul').eq(0).animate({'margin-top': '-=20px'});
+                i++;
+                if(i%num==0){
+                    // var mar_top=$('.notuce_list').find('li').eq(i).css('margin-top');
+                    $('.notice').find('ul').eq(0).remove().clone().appendTo('.notice').attr('style','');
+                }
+
+            }
+            setInterval(slide,2000);
+        });
+    </script>
+</head>
+<body>
+<div class="topNav">
+    <div class="top_back"></div>
+    <div class="wrap moa">
+        <a href="index.html" class="logo fl"></a>
+        <ul class="navUl fl">
+            <li><a href="index.html">首页</a></li>
+            <li class="hover"><a href="video.html">教学视频</a></li>
+            <li><a href="class_note.html">课堂笔记</a></li>
+            <li><a href="video_sources.html">参考资料</a></li>
+            <li><a href="connect_bbs.html">交流论坛</a></li>
+            <li><a href="#">在线考试</a></li>
+            <div class="clear"></div>
+        </ul>
+        <div class="topTool fr">
+            <a href="views/login.html" class="loginico fr"></a>
+            <div class="searchBox fr">
+                <input type="text" placeholder="搜索" class="searchinput fl">
+                <input type="button" class="searchbtn fl">
+            </div>
+            <!--searchBox.end-->
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div><!--wrap.end-->
+</div>
+
+<div class="navBack">
+    <div class="wrap moa">
+        <div class="navTwo fl">
+            <ul>
+                <li class="nt_hover"><a href="#">视频精选</a></li>
+                <li><a href="#">Java视频</a></li>
+                <li><a href="#">Web前端视频</a></li>
+                <li><a href="#">MySQL视频</a></li>
+                <li><a href="#">Android开发视频</a></li>
+            </ul>
+        </div><!--navTwo.end-->
+        <div class="nt_right fr">
+            <a href="#" class="note">上传视频</a>
+            <a href="#">我的上传</a>
+            <a href="#">我的收藏</a>
+        </div><!--nt_right.end-->
+        <div class="clear"></div>
+    </div><!--二级导航wrap.end-->
+</div><!--navBack.end-->
+<div class="padtop40"></div>
+<div class="bgWhite">
+    <div class="wrap moa">
+        <div class="w875 fl ofh">
+            <div id="con_one1" style='display: block;' class="w895 con bigPic">
+                <ul class="video_list">
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/video1.gif" alt=""></a></dt>
+                            <dd><a href="#">程序员的世界菇酿你不懂的</a></dd>
+                            <dd>
+                                <span class="eye fl"></span>
+                                <span class="fl pub_text">123</span>
+                                <span class="heart fl"></span>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                            <dd><a href="#">JAVA工程师教学视频</a></dd>
+                            <dd>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="heart fl"></i>
+                                <span class="fl pub_text">456</span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
+                <div class="clear"></div>
+                <div class="padtop40"></div>
+                <ul class="cln_list">
+                    <li>上一页</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li class="current">5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>下一页</li>
+                </ul>
+                <div class="clear"></div>
+            </div><!--w895.end-->
+        </div><!--视频列表左侧w875.end-->
+        <div class="w260 fr">
+            <div class="left_top" style="padding-top: 10px;">
+                <i class="mar_left"></i><span>公告</span><a href="#">更多</a>
+                <div class="clear"></div>
+            </div><!--left_top.end-->
+            <div class="tips mar_left notice">
+                <ul>
+                    <li><a href="#">如果你是名在读大学生，想要互联网创业</a></li>
+                    <li><a href="#">iOS 和 Android 哪个更利于赚钱呢?</a></li>
+                    <li><a href="#">如果你是名在读大学生，想要互联网创业</a></li>
+                    <li><a href="#">iOS 和 Android 哪个更利于赚钱呢?</a></li>
+                </ul>
+            </div>
+            <div class="left_top">
+                <i class="mar_left"></i><span>视频点击榜</span><a href="#">更多</a>
+                <div class="clear"></div>
+            </div><!--left_top.end-->
+            <div class="tips mar_left click">
+                <table width="260">
+                    <tr>
+                        <td class="one pub_td"><i>1</i></td>
+                        <td><a href="#">MySQL数据库分析</a></td>
+                    </tr>
+                    <tr>
+                        <td class="two pub_td"><i>2</i></td>
+                        <td><a href="#">秦时明月1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="3 pub_td"><i>3</i></td>
+                        <td><a href="#">XHTML技术详解</a></td>
+                    </tr>
+                    <tr>
+                        <td class="pub_td"><i>4</i></td>
+                        <td><a href="#">Java基础视频教学</a></td>
+                    </tr>
+                    <tr>
+                        <td class="pub_td"><i>5</i></td>
+                        <td><a href="#">数据库</a></td>
+                    </tr>
+                    <tr>
+                        <td class="pub_td"><i>6</i></td>
+                        <td><a href="#">程序员的世界菇酿你不懂的</a></td>
+                    </tr>
+                    <tr>
+                        <td class="pub_td"><i>7</i></td>
+                        <td><a href="#">JQuery效果演示</a></td>
+                    </tr>
+                    <tr>
+                        <td class="pub_td"><i>8</i></td>
+                        <td><a href="#">ThinkPHP从入门到精通</a></td>
+                    </tr>
+                    <tr>
+                        <td class="pub_td"><i>9</i></td>
+                        <td><a href="#">C#入门知识</a></td>
+                    </tr>
+                    <tr>
+                        <td class="pub_td"><i>10</i></td>
+                        <td><a href="#">css1</a></td>
+                    </tr>
+                </table>
+            </div><!--click.end-->
+            <div class="left_top">
+                <i class="mar_left"></i><span>热门问题</span><a href="#">更多</a>
+                <div class="clear"></div>
+            </div><!--left_top.end-->
+            <div class="tips mar_left hot" style="padding-top: 10px;">
+                <ul>
+                    <li>
+                        <a href="#" class="pub_hot">男子为办居住证 凌晨2点穿羽绒服排队</a>
+                        <a href="#" class="pub_hot1">打死都不说</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pub_hot">蔡英文“双十谈话”被批 台媒：想不战不</a>
+                        <a href="#" class="pub_hot1">打死都不说</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pub_hot">两岸和平发展论坛将于11月在北京举行</a>
+                        <a href="#" class="pub_hot1">打死都不说</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pub_hot">中俄举行反导问题吹风会：严批美韩部署</a>
+                        <a href="#" class="pub_hot1">打死都不说</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pub_hot">1亿非户籍人口将落户城市 农转非不得要</a>
+                        <a href="#" class="pub_hot1">打死都不说</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pub_hot">省份明确陪产假期限 快看看你能休多久？</a>
+                        <a href="#" class="pub_hot1">打死都不说</a>
+                    </li>
+                </ul>
+            </div><!--热门讨论区hot.end-->
+        </div><!--视频列表右侧w260.end-->
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+<div class="padtop20"></div>
+<div class="footer">
+    <div class="wrap moa">
+        <a href="index.html" class="logo fl" style="margin-top: 23px;"></a>
+        <div class="footer_right">
+            <ul>
+                <li><a href="#">嵌入式开发</a></li>
+                <li><a href="#">Android开发</a></li>
+                <li><a href="#">Java开发</a></li>
+                <li><a href="#">Web前端</a></li>
+                <li><a href="#">UI设计</a></li>
+                <div class="clear"></div>
+            </ul>
+            <p>版权所有：新开普电子股份有限公司  豫ICP备08102576号</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>

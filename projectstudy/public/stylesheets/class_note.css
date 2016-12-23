@@ -1,0 +1,90 @@
+.pad50{
+    padding: 20px ;
+}
+.class_note header{
+    font: 30px/24px '微软雅黑';
+    color: #333333;
+}
+.class_note a.back_btn:link,.class_note a.back_btn:visited,.class_note a.back_btn:hover,.class_note a.back_btn:active{
+    background: #eef4f8;
+    padding-top: 5px;
+    width: 94px;
+    height: 29px;
+    border: 1px solid #d4e3ee;
+    margin-right: 20px;
+    text-align: center;
+    color: #86abc7;
+    text-decoration: none;
+}
+.padtop30{
+    padding-top: 30px;
+}
+.class_note .cn_des span{
+    float: left;
+    padding-right: 32px;
+    color: #cccccc;
+}
+.class_note .cn_des span b{
+    font-weight: normal;
+    color: #999;
+}
+.class_note article{
+    margin-right: 20px;
+    padding-top: 20px;
+    border-bottom: 1px dashed #cfd6dc;
+}
+.class_note article p{
+    font: 16px/30px '微软雅黑';
+    padding-bottom: 20px;
+}
+.class_note article a{
+    display: block;
+    padding-left: 34px;
+}
+.padbot{
+    padding-bottom: 150px;
+}
+
+
+/*为你推荐区样式*/
+ h3{
+    color: #555;
+    font: 20px/24px '微软雅黑';
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.recommend ul li span a:link,.recommend ul li span a:visited,.recommend ul li span a:hover,.recommend ul li span a:active{
+    font: 14px/30px '微软雅黑';
+    color: #215484;
+    float: left;
+}
+.recommend ul li span.rcm_time{
+    font: 12px/30px '微软雅黑';
+    color: #999;
+    float: right;
+}
+.connect{
+    margin-right: 20px;
+}
+.connect #text{
+    width: 100%;
+    height: 130px;
+    background: #f8f8f8;
+    border: 1px solid #eee;
+}
+.connect span.count{
+    float: left;
+    color: #999;
+    padding-top: 20px;
+}
+.connect .ct_btn{
+    margin-top: 20px;
+    float: right;
+    background: #3498db;
+    width: 96px;
+    height: 36px;
+    color: #f5f5f5;
+    font: 16px/36px '微软雅黑';
+    text-align: center;
+}

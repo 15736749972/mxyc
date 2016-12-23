@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新开普教育学生交流平台</title>
+    <meta name="keywords" content="新开普，新开普教育，新开普教育学生交流平台，学生交流平台">
+    <meta name="description" content="新开普，新开普教育，新开普教育学生交流平台，学生交流平台">
+    <link rel="stylesheet" href="public/stylesheets/base.css">
+    <link rel="stylesheet" href="public/stylesheets/index.css">
+    <script src="public/jquery-3.1.1.js"></script>
+    <script src="public/javascripts/index.js"></script>
+    <script src="public/javascripts/public.js"></script>
+
+</head>
+<body>
+<header>SVN好牛</header>
+<div class="topNav">
+       <div class="top_back"></div>
+       <div class="wrap moa">
+           <a href="index.html" class="logo fl"></a>
+           <ul class="navUl fl">
+               <li class="hover"><a href="index.html">首页</a></li>
+               <li><a href="video.html">教学视频</a></li>
+               <li><a href="class_note.html">课堂笔记</a></li>
+               <li><a href="video_sources.html">参考资料</a></li>
+               <li><a href="connect_bbs.html">交流论坛</a></li>
+               <li><a href="#">在线考试</a></li>
+               <div class="clear"></div>
+           </ul>
+           <div class="topTool fr">
+               <a href="views/login.html" class="loginico fr"></a>
+               <div class="searchBox fr">
+                   <input type="text" placeholder="搜索" class="searchinput fl">
+                   <input type="button" class="searchbtn fl">
+               </div>
+               <!--searchBox.end-->
+               <div class="clear"></div>
+           </div>
+           <div class="clear"></div>
+       </div><!--wrap.end-->
+</div><!--topNav.end-->
+    <ul class="slideUl">
+        <li>
+            <a href="#" style="background-image: url('public/images/pic.gif')"></a>
+        </li>
+        <li>
+            <a href="#" style="background-color: #f00;"></a>
+        </li>
+        <li>
+            <a href="#" style="background-color: yellow;"></a>
+        </li>
+        <li>
+            <a href="#" style="background-color: blue;"></a>
+        </li>
+    </ul>
+    <div class="grayBg indexpad">
+        <div class="wrap moa">
+            <div class="w875 fl ofh">
+                <div class="index_pub_title">
+                    <div class="ipt_word grayBg">教学视频</div>
+                    <div class="ipt_main">
+                        <ul>
+                            <li id="one6"><a href="">MySQL</a></li>
+                            <li id="one5"><a href="">C</a></li>
+                            <li id="one4"><a href="">Java</a></li>
+                            <li id="one3"><a href="">JavaScript</a></li>
+                            <li id="one2"><a href="">HTML</a></li>
+                            <li class="hover" id="one1"><a href="">PHP</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div><!--ipt_main.end-->
+                    <div class="ipt_back"></div>
+                </div><!--标题index_pub_title.end-->
+
+                <div id="con_one1" style='display: block;' class="w895 con bigPic">
+                    <ul class="videoUl">
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/video1.gif" alt=""></a></dt>
+                                <dd><a href="#">程序员的世界菇酿你不懂的</a></dd>
+                                <dd>
+                                    <span class="eye fl"></span>
+                                    <span class="fl pub_text">123</span>
+                                    <span class="heart fl"></span>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><a href="#"><img src="public/images/temp.gif" alt=""></a></dt>
+                                <dd><a href="#">JAVA工程师教学视频</a></dd>
+                                <dd>
+                                    <i class="eye fl"></i>
+                                    <span class="fl pub_text">123</span>
+                                    <i class="heart fl"></i>
+                                    <span class="fl pub_text">456</span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div><!--w895.end-->
+                <div id="con_one2" class="w895 con">2</div>
+                <div id="con_one3" class="w895 con">3</div>
+                <div id="con_one4" class="w895 con">4</div>
+                <div id="con_one5" class="w895 con">5</div>
+                <div id="con_one6" class="w895 con">6</div>
+            </div><!--教学视频左侧w875.end-->
+            <div class="w260 fr ofh">
+                <button class="onself_btn fl mar_left">个人中心</button>
+                <button class="online_btn fl">在线考试</button>
+                <div class="clear"></div>
+                <div class="left_top">
+                    <i class="mar_left"></i><span>公告</span><a href="#">更多</a>
+                    <div class="clear"></div>
+                </div><!--left_top.end-->
+                <div class="tips mar_left notice" style="padding-top: 0;">
+                    <ul>
+                        <li><a href="#">如果你是名在读大学生，想要互联网创业</a></li>
+                        <li><a href="#">iOS 和 Android 哪个更利于赚钱呢?</a></li>
+                        <li><a href="#">如果你是名在读大学生，想要互联网创业</a></li>
+                        <li><a href="#">iOS 和 Android 哪个更利于赚钱呢?</a></li>
+                        <li><a href="#">如果你是名在读大学生，想要互联网创业</a></li>
+                        <li><a href="#">iOS 和 Android 哪个更利于赚钱呢?</a></li>
+                        <li><a href="#">如果你是名在读大学生，想要互联网创业</a></li>
+                        <li><a href="#">iOS 和 Android 哪个更利于赚钱呢?</a></li>
+                    </ul>
+                </div>
+                <div class="left_top">
+                    <i class="mar_left"></i><span>视频点击榜</span><a href="#">更多</a>
+                    <div class="clear"></div>
+                </div><!--left_top.end-->
+                <div class="tips mar_left click">
+                    <table width="260">
+                        <tr>
+                            <td class="one pub_td"><i>1</i></td>
+                            <td><a href="#">MySQL数据库分析</a></td>
+                        </tr>
+                        <tr>
+                            <td class="two pub_td"><i>2</i></td>
+                            <td><a href="#">秦时明月1</a></td>
+                        </tr>
+                        <tr>
+                            <td class="3 pub_td"><i>3</i></td>
+                            <td><a href="#">XHTML技术详解</a></td>
+                        </tr>
+                        <tr>
+                            <td class="pub_td"><i>4</i></td>
+                            <td><a href="#">Java基础视频教学</a></td>
+                        </tr>
+                        <tr>
+                            <td class="pub_td"><i>5</i></td>
+                            <td><a href="#">数据库</a></td>
+                        </tr>
+                        <tr>
+                            <td class="pub_td"><i>6</i></td>
+                            <td><a href="#">程序员的世界菇酿你不懂的</a></td>
+                        </tr>
+                        <tr>
+                            <td class="pub_td"><i>7</i></td>
+                            <td><a href="#">JQuery效果演示</a></td>
+                        </tr>
+                        <tr>
+                            <td class="pub_td"><i>8</i></td>
+                            <td><a href="#">ThinkPHP从入门到精通</a></td>
+                        </tr>
+                        <tr>
+                            <td class="pub_td"><i>9</i></td>
+                            <td><a href="#">C#入门知识</a></td>
+                        </tr>
+                        <tr>
+                            <td class="pub_td"><i>10</i></td>
+                            <td><a href="#">css1</a></td>
+                        </tr>
+                    </table>
+                </div><!--click.end-->
+            </div><!--教学视频右侧w260.end-->
+            <div class="clear"></div>
+        </div><!--wrap.end-->
+    </div><!--grayBg.end-->
+    <div class="bgWhite indexpad">
+        <div class="wrap moa">
+            <div class="w875 fl ofh">
+                <div class="index_pub_title">
+                    <div class="ipt_word whiteBg">参考资料</div>
+                    <div class="ipt_main">
+                        <ul>
+                            <li><a href="">更多</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div><!--ipt_main.end-->
+                    <div class="ipt_back"></div>
+                </div><!--标题index_pub_title.end-->
+                <div class="w895 sources">
+                    <ul class="see_data">
+                        <li>
+                            <a href="#" class="titleA">PHP资料</a>
+                            <ul class="bor_bto1">
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">1亿非户籍人口将落户城市 农...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">联大13日将任命古特雷斯为</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">29省份明确陪产假期限 快看...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">今起支付宝提现正式收费 超...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">贵州一副检察长涉吸毒被抓...  </a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                            </ul>
+                        </li>
+                        <li>
+                        <a href="#" class="titleA">PHP资料</a>
+                        <ul class="bor_bto1">
+                            <li><span class="sd_ico"></span><span class="mar_left"><a href="#">1亿非户籍人口将落户城市 农...</a></span><span class="time">02-27</span></li>
+                            <div class="clear"></div>
+                            <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">联大13日将任命古特雷斯为</a></span><span class="time">02-27</span></li>
+                            <div class="clear"></div>
+                            <li><span class="sd_ico"></span><span class="mar_left"><a href="#">29省份明确陪产假期限 快看...</a></span><span class="time">02-27</span></li>
+                            <div class="clear"></div>
+                            <li><span class="sd_ico"></span><span class="mar_left"><a href="#">今起支付宝提现正式收费 超...</a></span><span class="time">02-27</span></li>
+                            <div class="clear"></div>
+                            <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">贵州一副检察长涉吸毒被抓...  </a></span><span class="time">02-27</span></li>
+                            <div class="clear"></div>
+                        </ul>
+                         </li>
+                        <li>
+                            <a href="#" class="titleA">PHP资料</a>
+                            <ul class="bor_bto1">
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">1亿非户籍人口将落户城市 农...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">联大13日将任命古特雷斯为</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">29省份明确陪产假期限 快看...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">今起支付宝提现正式收费 超...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">贵州一副检察长涉吸毒被抓...  </a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="titleA">PHP资料</a>
+                            <ul class="bor_bto1">
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">1亿非户籍人口将落户城市 农...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">联大13日将任命古特雷斯为</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">29省份明确陪产假期限 快看...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">今起支付宝提现正式收费 超...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">贵州一副检察长涉吸毒被抓...  </a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="titleA">PHP资料</a>
+                            <ul class="bor_bto1">
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">1亿非户籍人口将落户城市 农...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">联大13日将任命古特雷斯为</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">29省份明确陪产假期限 快看...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">今起支付宝提现正式收费 超...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">贵州一副检察长涉吸毒被抓...  </a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="titleA">PHP资料</a>
+                            <ul class="bor_bto1">
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">1亿非户籍人口将落户城市 农...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">联大13日将任命古特雷斯为</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">29省份明确陪产假期限 快看...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico"></span><span class="mar_left"><a href="#">今起支付宝提现正式收费 超...</a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                                <li><span class="sd_ico1"></span><span class="mar_left"><a href="#">贵州一副检察长涉吸毒被抓...  </a></span><span class="time">02-27</span></li>
+                                <div class="clear"></div>
+                            </ul>
+                        </li>
+                    </ul><!--see_data.end-->
+
+                    <div class="clear"></div>
+                </div><!--参考资料详情w895.end-->
+            </div><!--参考资料左侧w875.end-->
+            <div class="w260 fr">
+                <div class="left_top" style="padding-top: 0;">
+                    <i class="mar_left"></i><span>人气用户</span><a href="#">更多</a>
+                    <div class="clear"></div>
+                </div><!--left_top.end-->
+                <div class="tips mar_left user">
+                    <table width="260">
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user1.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user2.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user3.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user4.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user5.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user6.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user7.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user8.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user9.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                        <tr>
+                            <td class="userPic"><a href="#"><img src="public/temporary_images/user10.gif" alt=""></a></td>
+                            <td class="name"><a href="#">Princess</a></td>
+                            <td class="count">90439</td>
+                        </tr>
+                    </table>
+                </div>
+            </div><!--参考资料右侧w260.end-->
+            <div class="clear"></div>
+        </div><!--wrap.end-->
+    </div><!--bgWhite.end-->
+    <div class="pad40"></div>
+    <div class="grayBg indexpad">
+        <div class="wrap moa">
+            <div class="w875 fl ofh">
+                <div class="padtop10"></div>
+                <div class="index_pub_title">
+                    <div class="ipt_word grayBg">课堂笔记</div>
+                    <div class="ipt_main">
+                        <ul>
+                            <li id="one66"><a href="">MySQL</a></li>
+                            <li id="one55"><a href="">C</a></li>
+                            <li id="one44"><a href="">Java</a></li>
+                            <li id="one33"><a href="">JavaScript</a></li>
+                            <li id="one22"><a href="">HTML</a></li>
+                            <li class="hover" id="one11"><a href="">PHP</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div><!--ipt_main.end-->
+                    <div class="ipt_back"></div>
+                </div><!--标题index_pub_title.end-->
+                <div id="con_one11" class="con w895 notes" style="display: block;">
+                    <ul class="class_note">
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                        <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="cn_connects">
+                                <li><a href="#" class="cn_title">郑州首家免费素食餐厅因人数过多致提前歇业</a></li>
+                                <li>
+                                    <div class="des fl">
+                                        <span>创作人</span>
+                                        <span class="pub_col"><a href="#">打死都不说</a></span>
+                                        <span> 记录</span>
+                                        <span class="pub_col"><a href="#">Java从入门到精通</a></span>
+                                    </div>
+                                    <span class="fr pub_text">456</span>
+                                    <i class="heart fr"></i>
+                                    <span class="fr pub_text">123</span>
+                                    <i class="eye fr"></i>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul><!--左侧课堂笔记class_note.end-->
+
+                    <div class="clear"></div>
+                </div><!--课堂笔记详情w895.end-->
+                <div id="con_one22" class="w895 con">2</div>
+                <div id="con_one33" class="w895 con">3</div>
+                <div id="con_one44" class="w895 con">4</div>
+                <div id="con_one55" class="w895 con">5</div>
+                <div id="con_one66" class="w895 con">6</div>
+            </div><!--课堂笔记左侧w875.end-->
+            <div class="w260 fr">
+                <div class="left_top" style="padding-top: 10px;">
+                    <i class="mar_left"></i><span>热门创作人</span><a href="#">更多</a>
+                    <div class="clear"></div>
+                </div><!--left_top.end-->
+                <div class="tips mar_left auther" style="padding-top: 0;">
+                    <dl>
+                        <dt class="fl"><a href="#"><img src="public/temporary_images/auther1.gif" alt=""></a></dt>
+                        <dd class="fr">
+                            <span><b class="fl b_name"><a href="#">王高翔</a></b><b class="fr b_job">Java 工程师</b></span>
+                            <div class="clear"></div>
+                            <span><b class="fl b_success">贡献<a href="#">646</a>篇</b><b class="fr b_count">总阅读<a href="#">1311</a>次</b></span>
+                            <div class="clear"></div>
+                            <span><a href="#">A股迎来反弹窗口期 后市有望...</a></span>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl>
+                        <dt class="fl"><a href="#"><img src="public/temporary_images/auther2.gif" alt=""></a></dt>
+                        <dd class="fr">
+                            <span><b class="fl b_name"><a href="#">王高翔</a></b><b class="fr b_job">Java 工程师</b></span>
+                            <div class="clear"></div>
+                            <span><b class="fl b_success">贡献<a href="#">646</a>篇</b><b class="fr b_count">总阅读<a href="#">1311</a>次</b></span>
+                            <div class="clear"></div>
+                            <span><a href="#">A股迎来反弹窗口期 后市有望...</a></span>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl>
+                        <dt class="fl"><a href="#"><img src="public/temporary_images/auther3.gif" alt=""></a></dt>
+                        <dd class="fr">
+                            <span><b class="fl b_name"><a href="#">王高翔</a></b><b class="fr b_job">Java 工程师</b></span>
+                            <div class="clear"></div>
+                            <span><b class="fl b_success">贡献<a href="#">646</a>篇</b><b class="fr b_count">总阅读<a href="#">1311</a>次</b></span>
+                            <div class="clear"></div>
+                            <span><a href="#">A股迎来反弹窗口期 后市有望...</a></span>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl>
+                        <dt class="fl"><a href="#"><img src="public/temporary_images/auther4.gif" alt=""></a></dt>
+                        <dd class="fr">
+                            <span><b class="fl b_name"><a href="#">王高翔</a></b><b class="fr b_job">Java 工程师</b></span>
+                            <div class="clear"></div>
+                            <span><b class="fl b_success">贡献<a href="#">646</a>篇</b><b class="fr b_count">总阅读<a href="#">1311</a>次</b></span>
+                            <div class="clear"></div>
+                            <span><a href="#">A股迎来反弹窗口期 后市有望...</a></span>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                </div><!--热门创作人栏auther.end-->
+            </div><!--课堂笔记右侧w260-->
+            <div class="clear"></div>
+        </div><!--wrap.end-->
+    </div><!--grayBg.end-->
+    <div class="padtop20"></div>
+    <div class="bgWhite indexpad">
+        <div class="wrap moa">
+            <div class="w875 ofh fl">
+                <div class="index_pub_title">
+                    <div class="ipt_word whiteBg">交流论坛</div>
+                    <div class="ipt_main">
+                        <ul>
+                            <li id="one666"><a href="">MySQL</a></li>
+                            <li id="one555"><a href="">C</a></li>
+                            <li id="one444"><a href="">Java</a></li>
+                            <li id="one333"><a href="">JavaScript</a></li>
+                            <li id="one222"><a href="">HTML</a></li>
+                            <li class="hover" id="one111"><a href="">PHP</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div><!--ipt_main.end-->
+                    <div class="ipt_back"></div>
+                </div><!--标题index_pub_title.end-->
+                <div class="w895 padtop20 con" id="con_one111" style="display: block;">
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user1.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/contect_user2.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user3.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user4.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user5.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user6.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user7.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user1.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user8.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <dl class="connect">
+                        <dt><a href="#"><img src="public/temporary_images/connect_user9.gif" alt=""></a></dt>
+                        <dd>
+                            <span class="con_des"><a href="#">郑州首家免费素食餐厅因人数过多致提前歇业</a></span>
+                            <span>
+                                <b class="fl con_notice">不动如山 </b>
+                                <i class="eye fl"></i>
+                                <span class="fl pub_text">123</span>
+                                <i class="message fl"></i>
+                                <span class="fl pub_text">456</span>
+                                <b class="fr con_time">2016-02-26  12:40:13</b>
+                               </span>
+                            <div class="clear"></div>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                    <div class="clear"></div>
+                </div><!--交流论坛详情w895.end-->
+                <div id="con_one222" class="w895 con">2</div>
+                <div id="con_one333" class="w895 con">3</div>
+                <div id="con_one444" class="w895 con">4</div>
+                <div id="con_one555" class="w895 con">5</div>
+                <div id="con_one666" class="w895 con">6</div>
+            </div><!--交流论坛w875.end-->
+            <div class="w260 fr">
+                <div class="left_top" style="padding-top: 0;">
+                    <i class="mar_left"></i><span>热门问题</span><a href="#">更多</a>
+                    <div class="clear"></div>
+                </div><!--left_top.end-->
+                <div class="tips mar_left hot" style="padding-top: 10px;">
+                    <ul>
+                        <li>
+                            <a href="#" class="pub_hot">男子为办居住证 凌晨2点穿羽绒服排队</a>
+                            <a href="#" class="pub_hot1">打死都不说</a>
+                        </li>
+                        <li>
+                            <a href="#" class="pub_hot">蔡英文“双十谈话”被批 台媒：想不战不</a>
+                            <a href="#" class="pub_hot1">打死都不说</a>
+                        </li>
+                        <li>
+                            <a href="#" class="pub_hot">两岸和平发展论坛将于11月在北京举行</a>
+                            <a href="#" class="pub_hot1">打死都不说</a>
+                        </li>
+                        <li>
+                            <a href="#" class="pub_hot">中俄举行反导问题吹风会：严批美韩部署</a>
+                            <a href="#" class="pub_hot1">打死都不说</a>
+                        </li>
+                        <li>
+                            <a href="#" class="pub_hot">1亿非户籍人口将落户城市 农转非不得要</a>
+                            <a href="#" class="pub_hot1">打死都不说</a>
+                        </li>
+                        <li>
+                            <a href="#" class="pub_hot">省份明确陪产假期限 快看看你能休多久？</a>
+                            <a href="#" class="pub_hot1">打死都不说</a>
+                        </li>
+                    </ul>
+                </div><!--热门讨论区hot.end-->
+            </div><!--w260.end-->
+            <div class="clear"></div>
+        </div><!--wrap.end-->
+    </div><!--bgWhite.end-->
+    <div class="padtop20"></div>
+    <div class="footer">
+        <div class="wrap moa">
+            <a href="index.html" class="logo fl" style="margin-top: 23px;"></a>
+            <div class="footer_right">
+                <ul>
+                    <li><a href="#">嵌入式开发</a></li>
+                    <li><a href="#">Android开发</a></li>
+                    <li><a href="#">Java开发</a></li>
+                    <li><a href="#">Web前端</a></li>
+                    <li><a href="#">UI设计</a></li>
+                    <div class="clear"></div>
+                </ul>
+                <p>版权所有：新开普电子股份有限公司  豫ICP备08102576号</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>

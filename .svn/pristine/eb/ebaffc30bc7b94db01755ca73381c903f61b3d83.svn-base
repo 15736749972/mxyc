@@ -1,0 +1,309 @@
+.indexpad{
+    padding: 20px;
+}
+.index_pub_title{
+    width: 100%;
+    position: relative;
+    height: 40px;
+}
+.ipt_word{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font: 24px/40px '微软雅黑';
+    color: #215484;
+    padding-right: 15px;
+}
+.ipt_main{
+height: 30px;
+}
+.ipt_main ul li{
+    float: right;
+    padding: 0 12px;
+}
+.ipt_main ul li.hover a:link,.ipt_main ul li.hover a:visited,.ipt_main ul li.hover a:hover,.ipt_main ul li.hover a:active{
+    color: #238fcf;
+}
+.ipt_back{
+    height: 2px;
+    overflow: hidden;
+    background: linear-gradient(to right,#1399d4,#1bb2b2,#b2796d,#ed526b,#9f4cec);
+}
+.eye{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -69px;
+}
+.heart{
+    height: 14px;
+    width: 14px;
+    background-position: -5px -94px;
+}
+.pub_text{
+    font: 12px/24px '微软雅黑';
+    padding-right: 7px;
+    padding-left: 2px;
+    color: #9aabb8;
+}
+.w895 ul.videoUl li{
+    float: left;
+    margin-top: 18px;
+    padding-right: 18px;
+}
+.videoUl li dl dd a:link,.videoUl li dl dd a:visited,.videoUl li dl dd a:hover,.videoUl li dl dd a:active{
+    font-weight: bold;
+    color: #215484;
+}
+.position_box{
+    height: 40px;
+    width: 428px;
+    position: absolute;
+    background: black;
+    opacity: 0.8;
+    left: 0;
+    top:298px;
+}
+.w260 button{
+    border: none;
+    width: 120px;
+    height: 42px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.onself_btn{
+    background: #3498db;
+    margin-right: 15px;
+}
+.online_btn{
+    background: #e99841;
+}
+.notice{
+    overflow: hidden;
+    height: 120px;
+}
+.notice ul li{
+    font: 14px/30px '微软雅黑';
+}
+.notice ul li a:link,.notice ul li a:visited,.notice ul li a:hover,.notice ul li a:active{
+    color: #555;
+}
+.click table tr td{
+    height: 25px;
+}
+.click table tr td.pub_td i{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #f9deb7;
+    text-align: center;
+    border-radius: 2px;
+    vertical-align: middle;
+    font-variant: normal;
+    font: 12px/18px '微软雅黑';
+    color: #fff;
+}
+.click table tr td.one i{
+    background: #f88a8c;
+}
+.click table tr td.two i{
+    background: #f9b48b;
+}
+.click table tr td a:link,.click table tr td a:visited,.click table tr td a:hover,.click table tr td a:active{
+    color: #666;
+    font: 14px/28px '微软雅黑';
+}
+
+.sources{
+    height: 455px;
+    overflow: hidden;
+}
+.see_data>li{
+    float: left;
+    padding: 22px 0 24px 0;
+    border-bottom: 1px dashed #cfd6dc;
+    margin: 0 15px;
+
+}
+a.titleA:link,a.titleA:visited,a.titleA:hover,a.titleA:active{
+    font: 16px/24px '微软雅黑';
+    font-weight: bold;
+    color: #39628d;
+    display: block;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+.bor_bto1 li{
+    width: 265px;
+    padding: 14px 0;
+}
+.bor_bto1 li span{
+    float: left;
+    font: 12px/16px '微软雅黑';
+    color: #9aabb8;
+}
+.bor_bto1 li span.sd_ico{
+    width: 16px;
+    height: 16px;
+    background: url("../images/tip.png") no-repeat -4px -116px;
+}
+.bor_bto1 li span a:link,.bor_bto1 li span a:visited,.bor_bto1 li span a:hover,.bor_bto1 li span a:active{
+    color: #555;
+}
+.bor_bto1 li span.time{
+    float: right;
+}
+.bor_bto1 li span.sd_ico1{
+    width:16px;
+    height: 16px;
+    background: url("../images/tip.png") no-repeat -4px -140px;
+}
+
+
+.user table tr td.userPic{
+    height: 42px;
+    text-align: center;
+    vertical-align: middle;
+}
+.user table tr td.name a:link,.user table tr td.name a:visited,.user table tr td.name a:hover,.user table tr td.name a:active{
+    text-align: left;
+    color: #215484;
+    font: 14px/42px '微软雅黑';
+    vertical-align: middle;
+}
+.user table tr td.count{
+    text-align: right;
+    color: #9aabb8;
+    font: 14px/42px '微软雅黑';
+}
+.pad40{
+    padding-top: 40px;
+}
+.notes{
+    padding-top: 20px;
+}
+.class_note>li{
+    float: left;
+    padding: 15px 0;
+    margin-right: 24px;
+    border-bottom: 1px dashed #cfd6dc;
+    width: 423px;
+}
+
+.cn_connects li a.cn_title:link,.cn_connects li a.cn_title:visited,.cn_connects li a.cn_title:hover,.cn_connects li a.cn_title:active{
+    font: 16px/24px '微软雅黑';
+    color: #333;
+}
+.pub_col a:link,.pub_col a:visited,
+.pub_col a:hover,.pub_col a:active{
+    color: #6e8bbb;
+}
+.des span {
+    font: 12px/24px '微软雅黑';
+    color: #999;
+}
+/*热门创作人样式*/
+.auther{
+    height: 440px;
+    overflow: hidden;
+}
+.auther dl{
+    padding: 16px 0;
+    border-bottom: 1px dashed #cfd6dc;
+}
+.auther dl dd span{
+    display: block;
+}
+.auther dl dd span b{
+    font-weight: normal;
+}
+.auther dl dd span a:link,.auther dl dd span a:visited,.auther dl dd span a:hover,.auther dl dd span a:active{
+    font: 12px/24px '微软雅黑';
+    color: #215484;
+}
+.auther dl dd span b.b_name a{
+    font-size: 14px;
+    color: #333;
+}
+.auther dl dd span b.b_job{
+    color: #a8b6c1;
+    font: 12px/18px '微软雅黑';
+}
+.auther dl dd span b.b_count,.auther dl dd span b.b_success{
+    font: 12px/18px '微软雅黑';
+    color: #999;
+}
+/*交流论坛区样式*/
+dl.connect{
+    width: 422px;
+    border-bottom: 1px dashed #cfd6dc;
+    padding: 14px 0;
+    float: left;
+    margin-right: 25px;
+}
+dl.connect dt{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    float: left;
+    background: #f5f5f5;
+    overflow: hidden;
+    text-align: center;
+}
+dl.connect dd{
+    width: 364px;
+    float: left;
+    padding-left: 8px;
+}
+dl.connect dd span{
+    display: block;
+}
+dl.connect dd span.con_des a:link,dl.connect dd span.con_des a:visited,dl.connect dd span.con_des a:hover,dl.connect dd span.con_des a:active{
+    font: 16px/24px '微软雅黑';
+    color: #333;
+}
+dl.connect dd span b{
+    font-weight: normal;
+}
+dl.connect dd span b.con_notice{
+    padding-right: 14px;
+    font: 12px/24px '微软雅黑';
+    color: #999;
+}
+dl.connect dd span i.message{
+    width: 14px;
+    height: 14px;
+    background-position: -30px -6px;
+}
+dl.connect dd span b.con_time{
+    font: 12px/24px '微软雅黑';
+    color: #999;
+}
+/*热门问题区样式*/
+.hot ul li{
+    padding: 10px 0;
+}
+.hot ul li a:link,.hot ul li a:visited,.hot ul li a:hover,.hot ul li a:active{
+    display: block;
+    font: 14px/20px '微软雅黑';
+}
+.hot ul li a.pub_hot{
+    color: #215484;
+}
+.hot ul li a.pub_hot1{
+    color: #999;
+}
+.con{
+    display: none;
+}
+.slideUl li a:link,.slideUl li a:visited,.slideUl li a:hover,.slideUl li a:active{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+}

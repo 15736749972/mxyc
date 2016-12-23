@@ -1,0 +1,58 @@
+.padtop50{
+    padding-top: 50px;
+}
+.cb_list{
+    margin-right: 20px;
+}
+.cb_list table{
+    width: 100%;
+}
+.cb_list table tr.tb_head{
+    border-bottom: 1px solid #cfd6dc;
+}
+.cb_list table tr.tb_head td{
+    vertical-align: top;
+    height: 30px;
+    color: #999;
+}
+.cb_list table tr.tb_body{
+    border-bottom: 1px dashed #cfd6dc;
+}
+.cb_list table tr.tb_body td{
+    height: 46px;
+
+}
+.cb_list table tr.tb_body td.kinds a:link,.cb_list table tr.tb_body td.kinds a:visited,.cb_list table tr.tb_body td.kinds a:hover,.cb_list table tr.tb_body td.kinds a:active{
+    color: #005eaf;
+    font: 16px/48px '微软雅黑';
+}
+.cb_list table tr.tb_body td.subject{
+    font: 16px/48px '微软雅黑';
+}
+.cb_list table tr.tb_body td.scan,.cb_list table tr.tb_body td.return,.cb_list table tr.tb_body td.time{
+    font: 12px/48px '微软雅黑';
+    color: #999;
+}
+.cb_list table tr.tb_body td.people a:link,.cb_list table tr.tb_body td.people a:visited,.cb_list table tr.tb_body td.people a:hover,.cb_list table tr.tb_body td.people a:active{
+    color: #869dc5;
+    font: 12px/48px '微软雅黑';
+}
+.padtop40{
+    padding-top: 40px;
+}
+.cln_list li{
+    float: left;
+    width: 34px;
+    height: 34px;
+    color: #666;
+    line-height: 34px;
+    border: 1px solid #e1e2e3;
+    text-align: center;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.cln_list li.current{
+    border-color: #fff;
+    color: #215484;
+    font-weight: bold;
+}
